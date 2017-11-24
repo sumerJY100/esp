@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd">
+<!-- Created by SVGDeveloper 1.0 -->
+<svg width="400" height="400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<g>
+<defs>
+<linearGradient id="orange_red" x1="0%" y1="0%" x2="100%" y2="0%">
+	<stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+	<stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+</linearGradient>
+<radialGradient id="radialGradient">
+	<stop offset="0" stop-color="rgb(255,0,0)" stop-opacity="1" />
+	<stop offset="28%" stop-color="rgb(255,251,0)" stop-opacity="1" />
+	<stop offset="45%" stop-color="rgb(1,180,57)" stop-opacity="1" />
+	<stop offset="60%" stop-color="rgb(0,234,255)" stop-opacity="1" />
+	<stop offset="75%" stop-color="rgb(0,2,144)" stop-opacity="1" />
+	<stop offset="1" stop-color="rgb(255,0,200)" stop-opacity="1" />
+</radialGradient>
+</defs>
+
+<defs>
+<linearGradient id="red_black" x1="0%" y1="0%" x2="0%" y2="100%">
+	<stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" xmlns="http://www.w3.org/2000/svg" />
+	<stop offset="100%" style="stop-color:rgb(255,255,0);stop-opacity:1" xmlns="http://www.w3.org/2000/svg" />
+</linearGradient>
+</defs>
+<ellipse cx="200" cy="190" rx="85" ry="55" stroke="#00ff00" style="fill:url(#red_black)"/>
+<rect x="148" y="80" width="89" height="42" fill="#99FFCC" stroke="#333333" stroke-opacity="1" transform="matrix(0.96,0,0,1,37.254,-17.306)" xmlns="http://www.w3.org/2000/svg" />
+<rect x="30" y="38" width="103" height="48" fill="url(#radialGradient)" stroke="#00CC66" />
+<ellipse id="test_eclipse" cx="300" cy="190" rx="85" ry="55" stroke="#00ff00" fill="url(#radialGradient)"/>
+<ellipse id="test_eclipse" cx="400" cy="190" rx="85" ry="55" stroke="#00ff00" style="fill:url(#radialGradient)"/>
+</g>
+</svg>

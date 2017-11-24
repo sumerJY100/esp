@@ -1,0 +1,127 @@
+<!--<!DOCTYPE struts PUBLIC -->
+<!-- "-Apache Software Foundation//DTD Struts Configuration 2.0//EN" -->
+<!-- "http://struts.apache.org/dtds/struts-2.0dtd"> -->
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<!-- 将action内容放在package元素下，package元素的name值与extends值可以使用默认值。如下所示 -->
+	<package name="default" namespace="/" extends="struts-default">
+		<!-- 知识类型 -->
+		<!-- <action name="knoledgeList" class="knowledgeTypeAction" method="list"> -->
+		<!-- <result name="list">/exam/knowledge/list.jsp</result> -->
+		<!-- </action> -->
+		<action name="weixin" class="weixinAction" method = "weixin">
+			<result name="success">/optimizationTips.jsp</result>
+		</action>
+		
+		<action name="listEp" class="epowerAction" method="listEp">
+			<result name="list">/admin/EP.jsp</result>
+		</action>
+		<action name="delEp" class="epowerAction" method="delEp">
+			<result name="list" type="redirectAction">listEp</result>
+		</action>
+		<action name="saveOrUpdateEp" class="epowerAction" method="saveOrUpdateEp">
+			<result name="list" type="redirectAction">listEp</result>
+		</action>
+<!-- 		向上移动 -->
+		<action name="changeEpLocationUp" class="epowerAction" method="changeEpLocationUp">
+			<result name="list" type="redirectAction">listEp</result>
+		</action>
+<!-- 		向下移动 -->
+		<action name="changeEpLocationDown" class="epowerAction" method="changeEpLocationDown">
+			<result name="list" type="redirectAction">listEp</result>
+		</action>
+		<action name="addOrEidtEp" class="epowerAction" method="addOrEidtEp">
+			<result name="addOrEdit">/admin/addOrEditEP.jsp</result>
+		</action>
+		<action name="getListEpData" class="epowerAction" method="getListEpData">
+		</action>
+<!-- 		heater -->
+		<action name="listHeater" class="heaterAction" method="listHeater">
+			<result name="list">/admin/heater.jsp</result>
+		</action>
+		<action name="delHeater" class="heaterAction" method="delHeater">
+			<result name="list" type="redirectAction">listHeater</result>
+		</action>
+		<action name="saveOrUpdateHeater" class="heaterAction" method="saveOrUpdateHeater">
+			<result name="list" type="redirectAction">listHeater</result>
+		</action>
+		<action name="addOrEditHeater" class="heaterAction" method="addOrEditHeater">
+			<result name="addOrEdit">/admin/addOrEditHeater.jsp</result>
+		</action>
+		<action name="getHeaterJSONData" class="heaterAction" method="getHeaterJSONData">
+		</action>
+		<action name="getListHeaterData" class="heaterAction" method="getListHeaterData">
+		</action>
+		<action name="updateHeaterTempratorByEpName_HeaterType" class="heaterAction" method="updateHeaterTempratorByEpName_HeaterType">
+		</action>
+		<action name="updateHeaterRunWay" class="heaterAction" method="updateHeaterRunWay">
+		</action>
+<!-- 		Rapper -->
+		<action name="listRapper" class="rapperAction" method="listRapper">
+			<result name="list">/admin/rapper.jsp</result>
+		</action>
+		<action name="delRapper" class="rapperAction" method="delRapper">
+			<result name="list" type="redirectAction">listRapper</result>
+		</action>
+		<action name="saveOrUpdateRapper" class="rapperAction" method="saveOrUpdateRapper">
+			<result name="list" type="redirectAction">listRapper</result>
+		</action>
+		<action name="addOrEditRapper" class="rapperAction" method="addOrEditRapper">
+			<result name="addOrEditRapper" >/admin/addOrEditRapper.jsp</result>
+		</action>
+		<action name="getRapperJSONData" class="rapperAction" method="getRapperJSONData">
+		</action>
+		<action name="getListRapperData" class="rapperAction" method="getListRapperData">
+		</action>
+<!-- 		heaterTemprator -->
+		<action name="heaterTempratorList" class="heaterTempratorAction" method="heaterTempratorList">
+			<result name="list">/admin/HeaterTemprator.jsp</result>
+		</action>
+		<action name="addOrEditHeaterTemprator" class="heaterTempratorAction" method="addOrEditHeaterTemprator">
+			<result name="addOrEidtHeaterTemprator">/admin/addOrEditHeaterTemprator.jsp</result>
+		</action>
+		<action name="delHeaterTemprator" class="heaterTempratorAction" method="delHeaterTemprator">
+			<result name="list" type="redirectAction">heaterTempratorList</result>
+		</action>
+		<action name="saveOrUpdateHeaterTemprator" class="heaterTempratorAction" method="saveOrUpdateHeaterTemprator">
+			<result name="list" type="redirectAction">heaterTempratorList</result>
+		</action>
+		<action name="getHeaterTempratorListTable" class="heaterTempratorAction" method="getHeaterTempratorListTable">
+		</action>
+<!-- 		hopper -->
+		<action name="hopperList" class="hopperAction" method="hopperList">
+			<result name="list">/admin/Hopper.jsp</result>
+		</action>
+		<action name="delHopper" class="hopperAction" method="delHopper">
+			<result name="list" type="redirectAction">hopperList</result>
+		</action>
+		<action name="saveOrUpdateHopper" class="hopperAction" method="saveOrUpdateHopper">
+			<result name="list" type="redirectAction">hopperList</result>
+		</action>
+		<action name="addOrEditHopper" class="hopperAction" method="addOrEditHopper">
+			<result name="addOrEditHopper" >/admin/addOrEditHopper.jsp</result>
+		</action>
+		<action name="getHopperJSONData" class="hopperAction" method="getHopperJSONData">
+		</action>
+		<action name="getHopperListForTable" class="hopperAction" method="getHopperListForTable">
+		</action>
+<!-- 		lowDevice -->
+		<action name="lowDeviceList"	 class="lowDeviceAction" method="lowDeviceList">
+			<result name="list"	>/admin/lowDevice.jsp</result>
+		</action>
+		<action name="addOrEditLowDevice" class="lowDeviceAction" method="addOrEditLowDevice">
+			<result name="addOrEditLowDevice"	>/admin/addOrEditLowDevice.jsp</result>
+		</action>
+		<action name="saveOrUpdateLowDevice"  class="lowDeviceAction"  method="saveOrUpdateLowDevice">
+			<result name="list" type="redirectAction">lowDeviceList</result>
+		</action>
+		<action name="delLowDevice" class="lowDeviceAction" method="delLowDevice">
+			<result name="list" type="redirectAction">lowDeviceList</result>
+		</action>
+		<action name="getLowDeviceTable" class="lowDeviceAction" method="getLowDeviceTable">
+		</action>
+	</package>
+</struts> 

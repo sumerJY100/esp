@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+
+
+	<!--事务配置：采用JTA事务 -->
+	<!-- <bean id="txManager" class="org.springframework.transaction.jta.JtaTransactionManager" 
+		/> -->
+	<!-- <bean id="collectDataTimer" class="com.connector.CollectTimer"> -->
+	<!-- </bean> -->
+	<!-- 采集计划数据bean -->
+	<!-- <bean id="collectExpectedPowerGenerationTimer" class="com.connector.CollectExpectedPowerGenerationTimer"> -->
+	<!-- </bean> -->
+	<!-- 删除9月1日到9月10日的数据 -->
+	<!-- <bean id="deleteDateFor9_1To9_10Timer" class="com.connector.test.DeleteDataForm9_1To9_10"> -->
+	<!-- <property name="proManager"> -->
+	<!-- <ref bean="proManager" /> -->
+	<!-- </property> -->
+	<!-- <property name="optiParamManager"> -->
+	<!-- <ref bean="optiParamManager" /> -->
+	<!-- </property> -->
+	<!-- <property name="guidingPowerManager"> -->
+	<!-- <ref bean="guidingPowerManager" /> -->
+	<!-- </property> -->
+	<!-- </bean> -->
+
+	<!-- 实时采集SIS中实时数据 -->
+
+	<bean id="collectExpectedPowerTask" class="org.springframework.scheduling.timer.ScheduledTimerTask">
+		<property name="timerTask" ref="collectExpectedPowerGenerationTimer" />
+		<property name="period">
+			<value>90000</value>
+		</property>
+		<property name="delay">
+			<value>5000</value>
+		</property>
+	</bean>
+	<!-- 实时采集功率计划中实时数据 -->
+
+	<bean id="scheduleReportTask" class="org.springframework.scheduling.timer.ScheduledTimerTask">
+		<property name="timerTask" ref="collectDataTimer" />
+		<property name="period">
+			<value>6000</value>
+		</property>
+		<property name="delay">
+			<value>5000</value>
+		</property>
+	</bean>
+	<!-- 删除 -->
+	<bean id="scheduleReportTask_delData" class="org.springframework.scheduling.timer.ScheduledTimerTask">
+		<property name="timerTask" ref="deleteDateFor9_1To9_10Timer" />
+		<property name="delay">
+			<value>1000</value>
+		</property>
+	</bean>
+
+
+
+
+
+	<bean class="org.springframework.scheduling.timer.TimerFactoryBean">
+		<property name="scheduledTimerTasks">
+			<list>
+				<ref bean="scheduleReportTask" />
+				<ref bean="scheduleReportTask_delData" />
+				<ref bean="collectExpectedPowerTask" />
+			</list>
+		</property>
+	</bean>
+
+
+
+</beans>

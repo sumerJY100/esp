@@ -1,0 +1,99 @@
+<!--<!DOCTYPE struts PUBLIC -->
+<!-- "-Apache Software Foundation//DTD Struts Configuration 2.0//EN" -->
+<!-- "http://struts.apache.org/dtds/struts-2.0dtd"> -->
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<!-- 将action内容放在package元素下，package元素的name值与extends值可以使用默认值。如下所示 -->
+	<package name="default_1" extends="struts-default" namespace="/">
+
+		<!-- <action name="showExamPaper" class="receptionExamPaperAction" -->
+		<!-- method="showExamPaper"> -->
+		<!-- <result name="list" type="redirectAction">examPaper?exa mPaper.id=${examPaper.id}&amp;examExaminee.id=${examExaminee.id} -->
+		<!-- </result> -->
+		<!-- </action> -->
+		<action name="login" class="userAction" method="login">
+			<result name="success" type="redirectAction">home2</result>
+			<result name="fail">/index.jsp</result>
+		</action>
+		<action name="home" class="userAction" method = "showHome">
+			<result name="success">/home.jsp</result>
+		</action>
+		<action name="home2" class="userAction" method = "showHome2">
+			<result>home2.jsp</result>
+		</action>
+		<action name="paramSet" class="userAction" method = "paramSet">
+			<result name="success">/paramSet.jsp</result>
+		</action>
+		<action name="heater" class="userAction" method = "heater">
+			<result name="success">/heater.jsp</result>
+		</action>
+		<action name="rapping" class="userAction" method = "rapping">
+			<result name="success">/rapping.jsp</result>
+		</action>
+		<action name="hopperLevel" class="userAction" method = "hopperLevel">
+			<result name="success">/hopperLevel.jsp</result>
+		</action>
+		<action name="linkState" class="userAction" method = "linkState">
+			<result name="success">/linkState.jsp</result>
+		</action>
+		<action name="alarmRecord" class="userAction" method = "alarmRecord">
+			<result name="success">/alaramRecord.jsp</result>
+		</action>
+		<action name="realTimeReporting" class="userAction" method = "realTimeReporting">
+			<result name="success">/realTimeReporting.jsp</result>
+		</action>
+		<action name="historyReporting" class="userAction" method = "historyReporting">
+			<result name="success">/historyReporting.jsp</result>
+		</action>
+		<action name="optimizationTips" class="userAction" method = "optimizationTips">
+			<result name="success">/optimizationTips.jsp</result>
+		</action>
+<!-- 		告警日志 -->
+		<action name="showLatestAlarmLog" class="alarmAction" method="showLatestAlarmLog">
+		</action>
+		<action name="showAllAlarmLog" class="alarmAction" method="showAllAlarmLog">
+		</action>
+		<!-- 历史曲线跳转 -->
+		<action name="historyCurve"  class="epowerAction"  method="historyCurve">
+			<result name="historyCurve">/historyCurve/historyCurve.jsp</result>
+		</action>
+		<action name="historyCurve2"  class="epowerAction"  method="historyCurve2">
+			<result name="historyCurve">/historyCurve/historyCurve2.jsp</result>
+		</action>
+<!-- 		查询历史数据 -->
+		<action name="getQueryDataFromEpHistory"  class="epowerAction"  method="getQueryDataFromEpHistory">
+		</action>
+		<action name="getNoDataFromEP"  class="epowerAction"  method="getNoDataFromEP">
+<!-- 			<result type="json"></result> -->
+		</action>
+		<action name="getEpFreshData"  class="epowerAction"  method="getEpFreshData">
+		</action>
+<!-- 		参数设置页面 -->
+		<action name="getEpSetAndReadingsForParamSet"  class="epowerAction"  method="getEpSetAndReadingsForParamSet">
+		</action>
+		<action name="getEpRealTimeValuesForParamSet"  class="epowerAction"  method="getEpRealTimeValuesForParamSet">
+		</action>
+<!-- 		历史报表页面 -->
+		<action name="findEpOneDayHistoryForHistoryReport"  class="epHistoryAction"  method="findEpOneDayHistoryForHistoryReport">
+		</action>
+		<action name="findAllEpForHistoryReport"  class="epHistoryAction"  method="findAllEpForHistoryReport">
+		</action>
+<!-- 		振打页面刷新 -->
+		<action name="getFreshRapperData" class="rapperAction" method="getFreshRapperData">
+		</action>
+		<action name="updateRapperForNoReturn" class="rapperAction" method="updateRapperForNoReturn">
+		</action>
+<!-- 		加热页面 -->
+		<action name="getHeaterJson" class="heaterAction" method="getHeaterJson">
+		</action>
+		<action name="updateHeaterMode" class="heaterAction" method="updateHeaterMode">
+		</action>
+<!-- 		连接状态页面 -->
+		<action name="getFreshLinkState" class="epowerAction" method="getFreshLinkState">
+		</action>
+
+	</package>
+</struts> 

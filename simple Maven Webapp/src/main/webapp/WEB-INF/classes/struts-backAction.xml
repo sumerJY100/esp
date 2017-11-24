@@ -1,0 +1,37 @@
+<!--<!DOCTYPE struts PUBLIC -->
+<!-- "-Apache Software Foundation//DTD Struts Configuration 2.0//EN" -->
+<!-- "http://struts.apache.org/dtds/struts-2.0dtd"> -->
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<!-- 将action内容放在package元素下，package元素的name值与extends值可以使用默认值。如下所示 -->
+	<package name="default_2" namespace="/back" extends="struts-default">
+		<!-- EP -->
+		<action name="epUpdate" class="epForBackAction" method="update">
+		</action>
+		<action name="getAllEp" class="epForBackAction" method="getAllEp">
+		</action>
+		<action name="resetAllAlarm" class="epForBackAction" method="resetAllAlarm">
+		</action>
+		<!-- heater -->
+		<action name="heaterUpdate" class="heaterForBackAction" method="update">
+		</action>
+		<!-- rapper -->
+		<action name="rapperUpdate" class="rapperForBackAction" method="update">
+		</action>
+		<!-- heaterTemprator -->
+ 		<action name="heaterTempratorUpdate" class="heaterTempratorForBackAction"
+			method="update">
+		</action>
+		<!-- lowDevice -->
+		<action name="lowDeviceUpdate" class="lowDeviceForBackAction" method="update">
+		</action>
+		<action name="freshAllLowDevice" class="lowDeviceForBackAction" method="freshAllLowDevice">
+		</action>
+		<!-- hopper -->
+		<action name="hopperUpdate" class="hopperForBackAction" method="update">
+		</action>
+	</package>
+</struts> 

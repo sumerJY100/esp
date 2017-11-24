@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+
+	<bean id="taskStatisticsJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="taskStatisticsQuartz" />
+		</property>
+
+		<property name="targetMethod">
+			<value>work</value>
+		</property>
+	</bean>
+
+	<!-- 字段 允许值 允许的特殊字符 秒 0-59 , - * / 分 0-59 , - * / 小时 0-23 , - * / 日期 1-31
+		, - * ? / L W C 月份 1-12 或者 JAN-DEC , - * / 星期 1-7 或者 SUN-SAT , - * ? / L
+		C # 年（可选） 留空, 1970-2099 ,
+		- * / “*”字符被用来指定所有的值。 如：”*“在分钟的字段域里表示“每分钟”。
+		“?”字符只在日期域和星期域中使用。它被用来指定“非明确的值”。
+		当你需要通过在这两个域中的一个来指定一些东西的时候，它是有用的。看下面的例子你就会明白。
+		月份中的日期和星期中的日期这两个元素时互斥的一起应该通过设置一个问号(?)来表明不想设置那个字段。
+		“-”字符被用来指定一个范围。如：“10-12”在小时域意味着“10点、11点、12点”。
+		“,”字符被用来指定另外的值。如：“MON,WED,FRI”在星期域里表示”星期一、星期三、星期五”。
+		“/”字符用于指定增量。如：“0/15”在秒域意思是没分钟的0，15，30和45秒。“5/15”在分钟域表示没小时的5，20，35和50。
+		符号 “*”在“/”前面（如：*/10）等价于0在“/”前面（如：0/10）。
+		记住一条本质：表达式的每个数值域都是一个有最大值和最小值的集合，
+		如：秒域和分钟域的集合是0-59，日期域是1-31，月份域是1-12。字符“/”可以帮助你在每个字符域中取相应的数值。 如：“7/6”在月份域的时候只有当
+		7月的时候才会触发，并不是表示每个6月。 -->
+	<!-- 实时采集计划功率数据 -->
+
+	<bean id="taskStatisticsTriggerBean" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail">
+			<ref bean="taskStatisticsJob" />
+		</property>
+		<property name="cronExpression">
+			<value>0/1 * * * * ?</value>
+		</property>
+	</bean>
+
+	<bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<ref local="taskStatisticsTriggerBean" />
+			</list>
+		</property>
+	</bean>
+
+
+</beans>

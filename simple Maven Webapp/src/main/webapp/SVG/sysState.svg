@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd">
+<!-- Created by SVGDeveloper 1.0 -->
+<svg width="440" height="350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox=" 0 ,0 ,440,350">
+<rect id="rect_id_1" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,136.846,82)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_2" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,137.846,156)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_3" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,171.846,81.718)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_4" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,172.846,157)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_5" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,65.846,81)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_6" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,66.846,155)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_7" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,100.846,82)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_8" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,101.846,156)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_9" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,-30.154,81)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_10" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,-29.154,155)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_11" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,4.846,81.038)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_12" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,5.846,156)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_13" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,-101.154,80)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_14" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,-100.154,154)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_15" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,-66.154,81)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_16" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,-65.154,155)" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_1" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,232.846,111)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_2" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,234.846,185)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_3" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,-40.154,108)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_4" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,-38.154,182)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_5" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,-5.154,109)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_6" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,-3.154,183)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_7" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,30.846,109)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_8" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,32.846,183)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_9" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,65.846,110)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_10" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,67.846,184)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_11" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,126.846,109)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_12" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,128.846,183)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_13" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,162.846,110)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_14" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,163.846,184)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_15" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,198.846,109)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_16" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,199.846,183)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line x1="92" y1="136" x2="467" y2="136" stroke="#00FF00" fill="#00FF00" stroke-width="2" transform="matrix(1,0,0,1,-37.154,109)" xmlns="http://www.w3.org/2000/svg" />
+<line x1="92" y1="136" x2="467" y2="136" stroke="#00FF00" fill="#00FF00" stroke-width="2" transform="matrix(1,0,0,1,-36.154,184)" xmlns="http://www.w3.org/2000/svg" />
+<text id="text_id_1" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,198.179,158.833)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text x="175" y="76" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" baseline-shift="baseline">
+</text>
+<text id="text_id_2" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,232.179,158.23)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_3" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,127.474,158.641)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_4" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,161.474,158.038)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_5" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,31.961,159.282)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_6" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,65.961,158.679)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_7" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-38.744,159.09)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_8" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-4.744,158.487)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_9" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,204.076,189.09)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_10" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,238.076,188.487)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_11" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,133.371,188.898)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_12" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,167.371,188.295)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_13" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,37.858,189.538)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_14" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,71.858,188.935)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_15" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-32.847,189.346)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_16" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,1.153,188.743)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_17" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,201.512,233.962)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_18" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,235.512,233.359)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_19" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,130.807,233.77)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_20" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,164.807,233.167)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_21" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,35.294,234.41)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_22" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,69.294,233.807)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_23" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-35.411,234.218)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_24" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-1.411,233.615)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_25" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,200.23,114.731)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_26" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,234.23,114.128)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_27" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,129.525,114.539)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_28" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,163.525,113.936)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_29" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,34.012,115.179)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_30" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,68.012,114.576)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_31" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-36.693,114.987)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_32" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-2.693,114.384)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<line x1="467.9487" y1="137.1795" x2="467.9487" y2="212.8205" stroke="#00FF00" fill="#00FF00" stroke-width="2" transform="matrix(1,0,0,1,-37.154,107)" xmlns="http://www.w3.org/2000/svg" />
+<text x="42.30768" y="142.3077" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="0.25" baseline-shift="baseline" transform="matrix(1,0,0,1,-41.718,138.436)" xmlns="http://www.w3.org/2000/svg">
+#4炉通讯</text>
+<text x="42.30768" y="142.3077" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="0.25" baseline-shift="baseline" transform="matrix(1,0,0,1,-24.949,181.564)" xmlns="http://www.w3.org/2000/svg">
+10baseT</text>
+<rect id="rect_id_17" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,135.051,-98)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_18" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,136.051,-24)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_19" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,170.051,-98.282)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_20" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,171.051,-23)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_21" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,64.051,-99)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_22" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,65.051,-25)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_23" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,99.051,-98)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_24" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,100.051,-24)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_25" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,-31.949,-99)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_26" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,-30.949,-25)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_27" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,3.051,-98.962)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_28" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,4.051,-24)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_29" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,-102.949,-100)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_30" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,-101.949,-26)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_31" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,-67.949,-99)" xmlns="http://www.w3.org/2000/svg" />
+<rect id="rect_id_32" x="181" y="118" width="15" height="28" fill="#00FF00" stroke="#666666" stroke-opacity="1" transform="matrix(1,0,0,1,-66.949,-25)" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_17" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,231.051,-69)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_18" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,233.051,5)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_19" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,-41.949,-72)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_20" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,-39.949,2)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_21" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,-6.949,-71)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_22" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,-4.949,3)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_23" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,29.051,-71)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_24" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,31.051,3)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_25" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,64.051,-70)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_26" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,66.051,4)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_27" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,125.051,-71)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_28" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,127.051,3)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_29" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,161.051,-70)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_30" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,162.051,4)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_31" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,197.051,-71)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line id="line_id_32" x1="127" y1="119" x2="127" y2="134" stroke="#00FF00" fill="#00FF00" transform="matrix(1,0,0,1,198.051,3)" stroke-width="2" xmlns="http://www.w3.org/2000/svg" />
+<line x1="92" y1="136" x2="467" y2="136" stroke="#00FF00" fill="#00FF00" stroke-width="2" transform="matrix(1,0,0,1,-38.949,-71)" xmlns="http://www.w3.org/2000/svg" />
+<line x1="92" y1="136" x2="467" y2="136" stroke="#00FF00" fill="#00FF00" stroke-width="2" transform="matrix(1,0,0,1,-37.949,4)" xmlns="http://www.w3.org/2000/svg" />
+<text id="text_id_33" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,196.384,-21.167)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_34" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,230.384,-21.77)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_35" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,125.679,-21.359)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_36" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,159.679,-21.962)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_37" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,30.166,-20.718)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_38" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,64.166,-21.321)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_39" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-40.539,-20.91)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_40" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-6.539,-21.513)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_41" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,202.281,9.09)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_42" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,236.281,8.487)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_43" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,131.576,8.898)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_44" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,165.576,8.295)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_45" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,36.063,9.538)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_46" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,70.063,8.935)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_47" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-34.642,9.346)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_48" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-0.642,8.743)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_49" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,199.717,53.962)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_50" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,233.717,53.359)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_51" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,129.012,53.77)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_52" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,163.012,53.167)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_53" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,33.499,54.41)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_54" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,67.499,53.807)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_55" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-37.206,54.218)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_56" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-3.206,53.615)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_57" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,198.434,-65.269)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_58" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,232.435,-65.872)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_59" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,127.73,-65.461)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_60" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,161.73,-66.064)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_61" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,32.217,-64.821)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_62" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,66.216,-65.424)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_63" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-38.488,-65.013)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<text id="text_id_64" x="113" y="79" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="1" transform="matrix(1,0,0,1,-4.488,-65.616)" xmlns="http://www.w3.org/2000/svg">
+3A11</text>
+<line x1="467.9487" y1="137.1795" x2="467.9487" y2="212.8205" stroke="#00FF00" fill="#00FF00" stroke-width="2" transform="matrix(1,0,0,1,-38.949,-73)" xmlns="http://www.w3.org/2000/svg" />
+<text x="42.30768" y="142.3077" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="0.25" baseline-shift="baseline" transform="matrix(1,0,0,1,-41.513,-43.564)" xmlns="http://www.w3.org/2000/svg">
+#3炉通讯</text>
+<text x="42.30768" y="142.3077" xml:space="preserve" font-family="微软雅黑" font-size="9" fill="#000000" stroke="#000000" stroke-width="0.25" baseline-shift="baseline" transform="matrix(1,0,0,1,-26.744,1.564)" xmlns="http://www.w3.org/2000/svg">
+10baseT</text>
+<rect x="382" y="3" width="57" height="23" fill="#CCCCCC" stroke="#000000" stroke-width="2" />
+<text x="387" y="15" xml:space="preserve" font-family="微软雅黑" font-size="10" fill="#000000" stroke="#000000" stroke-width="0.5" font-weight="normal" transform="matrix(1,0,0,1,-1,3)">
+     4#炉</text>
+</svg>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:dwr="http://www.directwebremoting.org/schema/spring-dwr"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context-2.5.xsd
+		http://www.directwebremoting.org/schema/spring-dwr
+    	http://www.directwebremoting.org/schema/spring-dwr-3.0.xsd">
+
+	<context:component-scan base-package="com.pojo" />
+	<context:component-scan base-package="com.action" />
+	<context:component-scan base-package="com.manager" />
+	<context:component-scan base-package="com.dao" />
+<!-- 	初始化设备数据 -->
+	<context:component-scan base-package="com.init" />
+
+	<context:component-scan base-package="com.back.action" />
+
+	<context:component-scan base-package="weixin.pojo" />
+	<context:component-scan base-package="weixin.action" />
+	<context:component-scan base-package="weixin.manager" />
+	<context:component-scan base-package="weixin.dao" />
+
+	<context:component-scan base-package="com.dwr" />
+	<context:component-scan base-package="quartz" />
+
+	<!-- 配置多数据源，使用不同的dataSource -->
+	<bean id="dataSourceForMysql" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver">
+		</property>
+		<property name="url"
+			value="jdbc:mysql://127.0.0.1:3306/esp?useUnicode=true&amp;characterEncoding=utf-8"></property>
+		<property name="username" value="root"></property>
+		<property name="password" value="root"></property>
+		<!-- #连接池的最大活动个数 -->
+		<property name="maxActive" value="20" />
+		<!-- #没有人用连接的时候，最大闲置的连接个数。 -->
+		<property name="maxIdle" value="100" />
+		<!-- #超时等待时间以毫秒为单位 -->
+		<property name="maxWait" value="1000" />
+		<!-- #是否自动回收超时连接 -->
+		<property name="removeAbandoned" value="true" />
+		<!-- #设置被遗弃的连接的超时的时间（以秒数为单位），即当一个连接被遗弃的时间超过设置的时间，则它会自动转换成可利用的连接。默认的超时时间是300秒 -->
+		<property name="removeAbandonedTimeout" value="60" />
+		<!-- #是否在自动回收超时连接的时候打印连接的超时错误 -->
+		<property name="logAbandoned" value="true" />
+		<!-- #给出一条简单的sql语句进行验证 -->
+		<property name="validationQuery" value="select 1 from dual " />
+		<!-- #在取出连接时进行有效验证 -->
+		<property name="testOnBorrow" value="true" />
+	</bean>
+
+
+	<!-- class = org.springframework.orm.hibernate3LocalSessionFactoryBean，无法实现注解类的注入 -->
+	<!-- AnnotationSessionFactoryBean是子类 -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource">
+			<ref local="dataSourceForMysql" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.MySQLDialect
+				</prop>
+				<prop key="hibernate.show_sql">false</prop>
+			</props>
+		</property>
+		<!-- 注解的方式添加包下面的所有类 -->
+		<property name="packagesToScan">
+			<!-- <value>com.entity.guidingPower</value> -->
+			<list>
+				<value>com.pojo</value>
+			</list>
+		</property>
+	</bean>
+
+</beans>
