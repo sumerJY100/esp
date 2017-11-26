@@ -8,7 +8,7 @@
 
 <jsp:include page="/common/commonJsAndCss.jsp"></jsp:include>
 <!-- highchart.js -->
-<script type="text/javascript" src="js/Highstock-2.0.3/js/highstock.js"></script>
+<script type="text/javascript" src="js/Highstock-2.0.1/js/highstock.js"></script>
 <!-- <script type="text/javascript" src="js/Highcharts-3.0.5/js/highcharts.js"></script> -->
 <script type="text/javascript" src="historyCurve/historyCurveTempData.js"></script>
 <!-- ingrid.js -->
