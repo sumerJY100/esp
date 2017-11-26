@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.nw.xjy</groupId>
 	<artifactId>simple</artifactId>
@@ -6,10 +7,14 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>simple Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+	
+
+	
 	<properties>
 		<spring.version>4.1.3.RELEASE</spring.version>
 		<aspectj.version>1.6.11</aspectj.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<projectName>simple</projectName>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -97,7 +102,8 @@
 			<version>3.2.0.RELEASE</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-asm -->
-		<!-- <dependency> <groupId>org.springframework</groupId> <artifactId>spring-asm</artifactId> <version>3.2.0.M1</version> </dependency> -->
+		<!-- <dependency> <groupId>org.springframework</groupId> <artifactId>spring-asm</artifactId> 
+			<version>3.2.0.M1</version> </dependency> -->
 		<!--使用AspectJ方式注解需要相应的包 -->
 		<dependency>
 			<groupId>org.aspectj</groupId>
@@ -159,7 +165,8 @@
 			<version>1.0.1.Final</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-validator -->
-		<!-- <dependency> <groupId>org.hibernate</groupId> <artifactId>hibernate-validator</artifactId> <version>3.1.0.GA</version> </dependency> -->
+		<!-- <dependency> <groupId>org.hibernate</groupId> <artifactId>hibernate-validator</artifactId> 
+			<version>3.1.0.GA</version> </dependency> -->
 
 
 
@@ -286,12 +293,12 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.directwebremoting/dwr -->
-<!-- https://mvnrepository.com/artifact/org.directwebremoting/dwr -->
-<dependency>
-    <groupId>org.directwebremoting</groupId>
-    <artifactId>dwr</artifactId>
-    <version>3.0.M1</version>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/org.directwebremoting/dwr -->
+		<dependency>
+			<groupId>org.directwebremoting</groupId>
+			<artifactId>dwr</artifactId>
+			<version>3.0.M1</version>
+		</dependency>
 
 
 
@@ -299,5 +306,19 @@
 	</dependencies>
 	<build>
 		<finalName>simple</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<url>http://127.0.0.1:8080/manager/text</url>
+					<server>tomcat7</server>
+					<path>/${projectName}</path>
+				</configuration>
+				
+				
+			</plugin>
+		</plugins>
 	</build>
 </project>

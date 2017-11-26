@@ -8,7 +8,7 @@
 
 <jsp:include page="/common/commonJsAndCss.jsp"></jsp:include>
 <!-- highchart.js -->
-<script type="text/javascript" src="js/Highcharts-3.0.5/js/highcharts.js"></script>
+<script type="text/javascript" src="js/Highcharts-3.0.10/js/highcharts.js"></script>
 <!-- ingrid.js -->
 <script type="text/javascript" src="js/ingrid/js/jquery.ingrid.js"></script>
 <link rel="stylesheet" href="js/ingrid/css/ingrid.css" type="text/css" media="screen" />
@@ -17,9 +17,9 @@
 <script type="text/javascript" src="js/home/home3.js"></script>
 <!-- <script type="text/javascript" src="js/home/homeForSvg.js"></script> -->
 <!-- DWR -->
-<script type='text/javascript' src='/ESP2.0/dwr/engine.js'></script>
-<script type='text/javascript' src='/ESP2.0/dwr/util.js'></script>
-<script type='text/javascript' src='/ESP2.0/dwr/interface/voltageAndCurrent.js'></script>
+<script type='text/javascript' src='dwr/engine.js'></script>
+<script type='text/javascript' src='dwr/util.js'></script>
+<script type='text/javascript' src='dwr/interface/voltageAndCurrent.js'></script>
 <style type="text/css">
 .controllerForcer {
 	font-size: 2;
